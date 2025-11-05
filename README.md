@@ -2,6 +2,8 @@
 
 A Python GUI application for viewing and converting vintage and legacy image formats including .ART (AOL Art), .MAC (MacPaint), .PIC (PICtor), .PCX (PC Paintbrush), and .TIF (TIFF).
 
+![Screenshot](appbanner.png)
+
 ## Features
 
 - **Multi-format support**: Open .ART, .MAC, .PIC, .PCX, and .TIF image files
@@ -171,7 +173,7 @@ vintageimageviewe/
 ├── requirements.txt            # Python dependencies
 ├── CHANGELOG.md                # Version history
 ├── PROJECT_SUMMARY.md          # Project overview
-├── docs/                       # Format documentation
+├── FileFormatDocumentation/    # Format documentation
 │   ├── README.md               # Documentation index
 │   ├── ART.md                  # AOL Art format spec
 │   ├── MAC.md                  # MacPaint format spec
