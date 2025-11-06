@@ -102,14 +102,14 @@ When you open an image, the viewer automatically scans the directory for other s
 
 ## Documentation
 
-Comprehensive technical documentation for each format is available in the [`docs/`](docs/) directory:
+Comprehensive technical documentation for each format is available in the [`FileFormatDocumentation/`](FileFormatDocumentation/) directory:
 
-- **[Format Overview](docs/README.md)** - Quick reference and comparison
-- **[ART Format](docs/ART.md)** - AOL Art format specification
-- **[MAC Format](docs/MAC.md)** - MacPaint format specification
-- **[PIC Format](docs/PIC.md)** - PICtor/PNTG format specification
-- **[PCX Format](docs/PCX.md)** - PC Paintbrush format specification
-- **[TIF Format](docs/TIF.md)** - TIFF format specification
+- **[Format Overview](FileFormatDocumentation/README.md)** - Quick reference and comparison
+- **[ART Format](FileFormatDocumentation/ART.md)** - AOL Art format specification
+- **[MAC Format](FileFormatDocumentation/MAC.md)** - MacPaint format specification
+- **[PIC Format](FileFormatDocumentation/PIC.md)** - PICtor/PNTG format specification
+- **[PCX Format](FileFormatDocumentation/PCX.md)** - PC Paintbrush format specification
+- **[TIF Format](FileFormatDocumentation/TIF.md)** - TIFF format specification
 
 Each document includes:
 - File structure details
@@ -208,7 +208,7 @@ To add support for a new format:
 3. Add format detection in `open_file()` and `_load_file_by_index()`
 4. Update file type filters
 5. Update `_scan_directory()` supported extensions
-6. Create format documentation in `docs/`
+6. Create format documentation in `FileFormatDocumentation/`
 7. Update this README
 
 ### Testing
