@@ -104,7 +104,6 @@ When you open an image, the viewer automatically scans the directory for other s
 
 Comprehensive technical documentation for each format is available in the [`FileFormatDocumentation/`](FileFormatDocumentation/) directory:
 
-- **[Format Overview](FileFormatDocumentation/README.md)** - Quick reference and comparison
 - **[ART Format](FileFormatDocumentation/ART.md)** - AOL Art format specification
 - **[MAC Format](FileFormatDocumentation/MAC.md)** - MacPaint format specification
 - **[PIC Format](FileFormatDocumentation/PIC.md)** - PICtor/PNTG format specification
