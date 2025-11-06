@@ -174,7 +174,7 @@ vintageimageviewe/
 ├── CHANGELOG.md                # Version history
 ├── PROJECT_SUMMARY.md          # Project overview
 ├── FileFormatDocumentation/    # Format documentation
-│   ├── README.md               # Documentation index
+│   
 │   ├── ART.md                  # AOL Art format spec
 │   ├── MAC.md                  # MacPaint format spec
 │   ├── PIC.md                  # PICtor/PNTG format spec
